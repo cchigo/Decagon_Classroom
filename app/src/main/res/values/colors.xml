@@ -6,6 +6,7 @@
     <color name="white">#FFFFFF</color>
     <color name="boxShadowsColor">#FBFBFD</color>
     <color name="errorColor">#F57557</color>
+    <color name="backgroundColor">#F7F7F7</color>
 
 <!--    fonts-->
     <color name="white_font">#FFFFFF</color>
@@ -17,5 +18,10 @@
     <color name="light_green_button">#42AA5E</color>
     <color name="dark_green_button">#286638</color>
     <color name="submit_button">#368C4C</color>
+
+
+<!--    icons-->
+    <color name="icon_focused">#30A24E</color>
+
 
 </resources>
