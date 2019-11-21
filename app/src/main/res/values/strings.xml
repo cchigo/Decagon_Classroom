@@ -15,6 +15,7 @@
     <string name="app_verification_stack_error">Stack is required</string>
     <string name="app_verification_code_error">Code is required</string>
     <string name="app_choose_stack">Choose Stack</string>
+    <string name="title_activity_verification">VerificationActivity</string>
 
 
 </resources>
