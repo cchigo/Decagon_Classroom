@@ -29,7 +29,7 @@
     </style>
 
     <style name="submitButton">
-        <item name="android:background">@drawable/button_dark_green</item>
+        <item name="android:background">@drawable/submit_button</item>
         <item name="android:textColor">@color/white_font</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">@dimen/small_font</item>
