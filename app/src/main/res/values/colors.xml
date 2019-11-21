@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#008577 </color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="background">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="boxShadowsColor">#FBFBFD</color>
+
+<!--    fonts-->
+    <color name="white_font">#FFFFFF</color>
+    <color name="dark_font_color">#2D2F48</color>
+    <color name="grey_font_color">#898989</color>
+
+<!--    buttons-->
+
+    <color name="light_green_button">#42AA5E</color>
+    <color name="dark_green_button">#286638</color>
+
 </resources>
