@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
       bottomNavigationView = findViewById(R.id.bottom_navigation_view)
 
-      bottomNavigationView.selectedItemId = R.id.navigation_curriculum
+      bottomNavigationView.selectedItemId = R.id.navigation_home
 
        bottomNavigationView.setOnNavigationItemSelectedListener(this)
 
