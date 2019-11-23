@@ -20,6 +20,13 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
       bottomNavigationView = findViewById(R.id.bottom_navigation_view)
 
+
+        supportFragmentManager
+            .beginTransaction()
+            .replace(R.id.container, home)
+            .commit()
+
+
       bottomNavigationView.selectedItemId = R.id.navigation_home
 
        bottomNavigationView.setOnNavigationItemSelectedListener(this)
@@ -34,27 +41,27 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
 
-       when (p0.getItemId()){
+       when (p0.itemId){
            navigation_home ->{
-           getSupportFragmentManager()
+           supportFragmentManager
                .beginTransaction()
                .replace(R.id.container, home).commit()
                 return true
            }
            navigation_curriculum ->{
-               getSupportFragmentManager()
+               supportFragmentManager
                    .beginTransaction()
                    .replace(R.id.container, curriculum).commit()
                return true
            }
            navigation_resources ->{
-               getSupportFragmentManager()
+               supportFragmentManager
                    .beginTransaction()
                    .replace(R.id.container, resources).commit()
                return true
            }
            navigation_profile ->{
-               getSupportFragmentManager()
+               supportFragmentManager
                    .beginTransaction()
                    .replace(R.id.container, profile).commit()
                return true
