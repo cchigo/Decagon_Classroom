@@ -9,27 +9,6 @@
     android:id="@+id/resources"
     tools:context=".ResourcesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
-
-    <!--    <com.google.android.material.tabs.TabItem-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/articles"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/search_bar" />-->
-
-
-
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView5"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="TextView"-->
-<!--        tools:layout_editor_absoluteX="93dp"-->
-<!--        tools:layout_editor_absoluteY="108dp" />-->
-
 
     <EditText
         android:id="@+id/search_bar"
