@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-
+        <activity android:name=".Search"></activity>
         <activity
             android:name=".VerificationActivity"
             android:label="@string/title_activity_verification"
