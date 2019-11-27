@@ -13,7 +13,13 @@
         <activity
             android:name=".VerificationActivity"
             android:label="@string/title_activity_verification"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".GetStartedActivity" />
         <activity android:name=".MainActivity">

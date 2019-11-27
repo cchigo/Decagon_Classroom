@@ -64,12 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:src="@drawable/read_more"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
         tools:layout_editor_absoluteY="0dp" />
-
-
-
 
 </LinearLayout>
