@@ -4,10 +4,6 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-
-
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_button"
         style="@style/Widget.MaterialComponents.FloatingActionButton"
@@ -16,15 +12,13 @@
         android:backgroundTint="@color/white_font"
         android:src="@drawable/back_button"
         app:backgroundTint="@color/white_font"
-        android:layout_margin="32dp"
-        app:elevation="6dp"
-
-
+        android:layout_margin="16dp"
+        app:elevation="4dp"
         app:hoveredFocusedTranslationZ="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:maxImageSize="40dp"
+        app:maxImageSize="32dp"
         app:pressedTranslationZ="8dp"
         app:rippleColor="@color/colorPrimary" />
 
